@@ -5,7 +5,7 @@ export default function Events(){
     return(
         <div className='p-[4vw]'>
             <h1 className='heading'>Events</h1>
-            <div className='flex gap-10 relative'>
+            <div className='flex gap-10 relative rowContainer'>
                 <div className='flex flex-col gap-5 w-full'>
                     <EventRow name="Radiant - Valorant" poster="/poster.jpg" link="" content="Holographic surrealism is all about creating a futuristic, otherworldly feel. This trend is characterized by the use of iridescent colors, holographic patterns, and neon lights, and is inspired by science fiction and technology. In 2023, expect to see designers using holographic elements to create designs that are eye-catching, engaging, and futuristic."/>
                     <EventRow name="X marks - Treasure Hunt" poster="/poster.jpg" link="" content="Holographic surrealism is all about creating a futuristic, otherworldly feel. This trend is characterized by the use of iridescent colors, holographic patterns, and neon lights, and is inspired by science fiction and technology. In 2023, expect to see designers using holographic elements to create designs that are eye-catching, engaging, and futuristic."/>

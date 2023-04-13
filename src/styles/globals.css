@@ -161,3 +161,22 @@ opacity: 0.8;
     font-size: 5vw;
   }
 }
+@media screen and (max-width: 900px){
+  
+}
+@media screen and (max-width: 770px) {
+  .rowContainer{
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .quick{
+    justify-content: center;
+    align-items: center;
+  }
+  .feedback{
+    padding: 1.25rem;
+  }
+}
