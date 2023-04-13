@@ -12,7 +12,7 @@ export default function HeroSection(){
                 <p className='text-2xl font-bold'>Powered By</p>
                 <img src="/sponsor.svg" alt="Msigma" />
             </div>
-            <div className='flex flex-col w-full justify-center gap-[-400px] items-center'>
+            <div className='flex flex-col w-full justify-center gap-[-400px] items-center logo'>
                 <img src="/resurgence.svg" alt="" className='w-[40%] opacity-20'/>
                 <img src="/resurgence.svg" alt="" className='w-[40%] centerLogo'/>
                 <img src="/resurgence.svg" alt="" className='w-[40%] opacity-20'/>
