@@ -2,26 +2,162 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Rubik:wght@500&display=swap');
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.homie{  
+  overflow-x: hidden;
+  width: 100vw;
+  position: relative;
+}
+p{
+  margin:0
+}
+body::after{
+  background-image: url('/grain1.svg');
+  content: '';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 10;
+}
+.grain{
+  position: relative;
+}
+.grain::after{
+  background-image: url('/grain1.svg');
+  content: '';
+  opacity: 0.5;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 10;
+}
+.yellow{
+  background: #A1E529;
+    filter: blur(228px);
+    height: 100vh;
+    width: 60vw;
+    border-radius: 50%;
+    position: absolute;
+    right: -290px;
+    top: -200px;
+    opacity: 0.4;
+}
+.blue{
+  background: #2A379B;
+    filter: blur(228px);
+    height: 100vh;
+    width: 60vw;
+    border-radius: 50%;
+    position: absolute;
+    left: -290px;
+    bottom: -200px;
+    opacity: 0.4;
+}
+.navbar{
+  background: linear-gradient(269.7deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+backdrop-filter: blur(25px);
+}
+.largest{
+  background: linear-gradient(265.69deg, rgba(255, 101, 101, 0.5) 0%, rgba(254, 95, 238, 0.5) 21.23%, rgba(120, 134, 255, 0.5) 44.15%, rgba(102, 255, 246, 0.5) 69.15%, rgba(251, 255, 74, 0.5) 100%);
+  font-family: 'Montserrat', sans-serif;
+font-style: italic;
+font-weight: 700;
+font-size: 80px;
+}
+.a{
+  background: -webkit-linear-gradient(90.36deg, #DB3232 3.85%, #DB32AC 17.09%, #706ED6 31.28%, #32D1DB 45.18%, #CDDB32 57.63%);
+  -webkit-background-clip: text;
+}
+.centerLogo{
+  margin: -2.5% 0;
+}
+.outerBox{
+  background: conic-gradient(from 180deg at 50% 50%, #FF6161 0deg, #FFD361 70.5deg, #95FFA0 162.37deg, #95B9FF 233.62deg, #D795FF 310.5deg, #FF6161 360deg);
+  /* width: 100px; */
+  position: relative;
+}
+.outerBox::after{
+  background: conic-gradient(from 180deg at 50% 50%, #FF6161 0deg, #FFD361 70.5deg, #95FFA0 162.37deg, #95B9FF 233.62deg, #D795FF 310.5deg, #FF6161 360deg);
+  content: '';
+  position:absolute;
+  top:0;
+  left:0;
+  /* width:100px; */
+  height:100%;
+  z-index: -1;
+  border-radius: 100px;
+}
+.innerBox{
+  width:100%;
+  padding: 10px 15px;
+}
+.tagline p{
+  font-style: italic;
+font-weight: 700;
+font-size: 25px;
+}
+.about{
+  background: conic-gradient(from 179.96deg at 50% 50%, rgba(161, 9, 136, 0.85) 0deg, rgba(2, 20, 186, 0.85) 360deg);
+border-radius: 12px;
+}
+.about p{
+font-weight: 300;
+font-size: 18px;
+opacity: 0.5;
+}
+.about h1, .heading{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  opacity: 0.6;
+}
+.points{
+  position: relative;
+}
+.points::before{
+  content:'';
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  left: -25px;
+  background-color: white;
+  border-radius: 100px;
+  margin-top: 8px;
+}
+.sponsor p{
+  font-weight: 500;
+font-size: 17px;
+letter-spacing: 1px;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.mcontainer{
+  background: url('/bg.svg');
+}
+.winner{
+  background: linear-gradient(265.69deg, rgba(255, 101, 101, 0.5) 0%, rgba(254, 95, 238, 0.5) 21.23%, rgba(120, 134, 255, 0.5) 44.15%, rgba(102, 255, 246, 0.5) 69.15%, rgba(251, 255, 74, 0.5) 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media screen and (max-width: 1200px) {
+  .eventPoster{
+    width: 100%;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .classes div{
+    width: 60vw;
+  }
+  .largest{
+    font-size: 5vw;
+  }
 }
