@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import SpclButton from './SpclButton'
+import Image from 'next/image'
 
 export default function EventRow(props){
     const {name,content,poster,link} = props;
@@ -10,6 +11,7 @@ export default function EventRow(props){
     };
     const arrowStyle = {
         transform: angle,
+        opacity: 0.7
     }
     function buttonClick(){
         if (display === 'none'){
@@ -22,14 +24,14 @@ export default function EventRow(props){
         }
     }
     return(
-        <div className='bg-[#08080E] p-[30px] rounded-xl flex flex-col gap-7 w-full cursor-pointer' onClick={buttonClick}>
-            <div className='flex justify-between'>
+        <div className='bg-[#08080E] p-[30px] rounded-xl flex flex-col gap-7 w-full cursor-pointer eventContent' onClick={buttonClick}>
+            <div className='flex justify-between relative'>
                 <p>{name}</p>
-                <img src="/arrow.svg" alt="" style={arrowStyle}/>
+                <Image src="/arrow.svg" alt="" style={arrowStyle} height={20} width={20}/>
             </div>
             <div className='flex flex-col gap-7' style={rowStyle}>
                 <div className='flex justify-center'>
-                    <img src={poster} alt="" className='w-[80%] eventPoster'/>
+                    <img src={poster} alt="" className='w-[80%] eventPoster' loading='lazy'/>
                 </div>
                 <p>{content}</p>
                 <div>
