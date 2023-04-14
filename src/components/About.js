@@ -3,7 +3,7 @@ import SpclButton from './SpclButton'
 
 export default function About(){
     return(
-        <div className='p-[4vw]'>
+        <div className='p-[4vw]' id='about'>
             <div className='py-[4vw] about flex flex-col gap-[10vh]'>
                 <div className='flex aboutContent'>
                     <div className='flex flex-col gap-5 px-[4vw]'>

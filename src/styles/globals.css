@@ -14,20 +14,9 @@ body{
 .homie{  
   overflow-x: hidden;
   overflow-y: hidden;
-  position: relative;
 }
 p{
   margin:0
-}
-.homie::after{
-  background-image: url('/grain1.svg');
-  content: '';
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  z-index: 10;
 }
 .grain{
   position: relative;
@@ -166,6 +155,10 @@ opacity: 0.8;
   .largest{
     font-size: 5vw;
   }
+  .menuOption{
+    justify-content: unset;
+    gap: 3vh;
+  }
 }
 @media screen and (max-width: 900px){
   .logo img{
@@ -173,6 +166,9 @@ opacity: 0.8;
   }
 }
 @media screen and (max-width: 770px) {
+  .menuOption{
+    gap: 6vh;
+  }
   .rowContainer{
     flex-direction: column;
     gap: 1.25rem;
@@ -195,5 +191,35 @@ opacity: 0.8;
   }
   .about{
     background: conic-gradient(from 270deg at 50% 50%, rgba(161, 9, 136, 0.75) 0deg, rgba(2, 20, 186, 0.75) 360deg);
+  }
+  .sponsor{
+    padding:8vw;
+  }
+  .sctsb{
+    width:12vw;
+  }
+  .menu{
+    width: 5vw;
+    height: 3.5vw;
+  }
+}
+@media screen and (max-width: 710px){
+  .classes div{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px){
+  .sctsb{
+    width:15vw;
+  }
+  .menu{
+    width: 6vw;
+    height: 4vw;
+  }
+  .navbarMain{
+    padding: 4vh;
+  }
+  .menuOption{
+    gap: 8vh;
   }
 }

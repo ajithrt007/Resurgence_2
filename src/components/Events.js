@@ -3,7 +3,7 @@ import EventRow from './EventRow'
 
 export default function Events(){
     return(
-        <div className='p-[4vw]'>
+        <div className='p-[4vw]' id='events'>
             <h1 className='heading'>Events</h1>
             <div className='flex gap-10 relative rowContainer'>
                 <div className='flex flex-col gap-5 w-full'>

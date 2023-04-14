@@ -22,7 +22,7 @@ export default function EventRow(props){
         }
     }
     return(
-        <div className='bg-[#08080E] p-[30px] rounded-xl flex flex-col gap-7 w-full' onClick={buttonClick}>
+        <div className='bg-[#08080E] p-[30px] rounded-xl flex flex-col gap-7 w-full cursor-pointer' onClick={buttonClick}>
             <div className='flex justify-between'>
                 <p>{name}</p>
                 <img src="/arrow.svg" alt="" style={arrowStyle}/>

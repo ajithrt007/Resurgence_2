@@ -5,7 +5,7 @@ import BlueGrad from '../components/BlueGrad.js'
 
 export default function HeroSection(){
     return(
-        <div className='flex flex-col pt-[20vh] h-screen gap-[6vh] homie'>
+        <div className='flex flex-col pt-[20vh] h-screen gap-[6vh] homie grain' id='home'>
             <YellowGrad/>
             <BlueGrad/>
             <div className='flex gap-10 justify-center items-center'>

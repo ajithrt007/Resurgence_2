@@ -4,6 +4,7 @@ import Sponsor from '../components/Sponsor.js'
 import Footer from '../components/Footer.js'
 import Scoreboard from './Scoreboard.js'
 import Events from './Events.js'
+import Points from './Points.js'
 
 export default function Container(){
     return(
@@ -11,6 +12,7 @@ export default function Container(){
             <About/>
             <Sponsor/>
             <Events/>
+            <Points/>
             <Scoreboard/>
             <Footer/>
         </div>

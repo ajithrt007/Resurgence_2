@@ -8,7 +8,7 @@ export default function Scoreboard(){
         },
     ]
     return(
-        <div className='flex flex-col gap-10 p-[4vw]'>
+        <div className='flex flex-col gap-10 p-[4vw]' id='score'>
             <h1 className='heading'>Scoreboard</h1>
             <div className='flex flex-col items-center gap-5 classes'>
                 <div className='flex justify-between w-[40vw] p-[20px] winner rounded-xl'>

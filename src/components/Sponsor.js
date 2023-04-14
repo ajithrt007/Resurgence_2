@@ -3,7 +3,7 @@ import SpclButton from './SpclButton'
 
 export default function Sponsor(){
     return(
-        <div className='p-[4vw] grain sponsor flex flex-col gap-10'>
+        <div className='p-[4vw] sponsor flex flex-col gap-10' id='sponsor'>
             <h1 className='heading'>Meet our Sponsor</h1>
             <div className='flex justify-center'>
                 <img src="/sponsor.svg" alt="" className='w-[15vw]'/>
