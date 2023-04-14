@@ -96,6 +96,14 @@ font-size: 80px;
   font-style: italic;
 font-weight: 700;
 font-size: 25px;
+background: linear-gradient(180deg, #FF3E00 50.31%, #FF9900 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.tagline div{
+  background: linear-gradient(180deg, #FF3E00 50.31%, #FF9900 100%);
 }
 .about{
   background: conic-gradient(from 179.96deg at 50% 50%, rgba(161, 9, 136, 0.85) 0deg, rgba(2, 20, 186, 0.85) 360deg);
@@ -271,5 +279,11 @@ opacity: 0.8;
   }
   .footer{
     padding: 8vw;
+  }
+  .footer img{
+    width: 50vw
+  }
+  .quick div{
+    align-items: center;
   }
 }
