@@ -102,7 +102,7 @@ font-size: 25px;
 border-radius: 12px;
 }
 .about p{
-font-weight: 300;
+font-weight: 400;
 font-size: 18px;
 opacity: 0.5;
 }
@@ -115,7 +115,7 @@ opacity: 0.5;
 .points{
   position: relative;
 }
-.points::before{
+/* .points::before{
   content:'';
   height: 7px;
   width: 7px;
@@ -124,9 +124,9 @@ opacity: 0.5;
   background-color: white;
   border-radius: 100px;
   margin-top: 8px;
-}
+} */
 .sponsor p{
-  font-weight: 500;
+  font-weight: 400;
 font-size: 17px;
 letter-spacing: 1px;
 color: #FFFFFF;
@@ -221,5 +221,53 @@ opacity: 0.8;
   }
   .menuOption{
     gap: 8vh;
+  }
+}
+@media screen and (max-width: 500px){
+  .powered{
+    gap: 3vw;
+  }
+  .powered p{
+    font-size: 20px;
+  }
+  .powered img{
+    width: 30vw;
+  }
+  .logo img{
+    width: 85%
+  }
+  .tagline p{
+    font-size: 20px;
+  }
+  .homie{
+    padding-top: 30vh;
+  }
+  .yellow, .blue{
+    opacity: 1
+  }
+  .largest{
+    font-size: 5vh;
+  }
+  .navbar{
+    backdrop-filter: blur(50px);
+  }
+  .heading, .about h1{
+    font-size: 3.5vh;
+    font-weight: 700;
+  }
+  .about{
+    gap: 2vh;
+  }
+  .aboutContent{    
+    gap: 10vh;
+  }
+  .rowContainer, .rowContainer div{
+    gap: 1vh;
+  }
+  .sponsorLogo{
+    width: 40vw;
+  }
+  .footer{
+    padding: 8vw;
   }
 }

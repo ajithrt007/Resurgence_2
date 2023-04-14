@@ -34,9 +34,9 @@ export default function Navbar() {
         <a href="https://ieeesctsb.org/">
           <img src="/IEEE SCT SB.svg" alt="" className="sctsb" />
         </a>
-        <div className="relative w-[40px] h-[27px]">
+        <div className="relative w-[40px] h-[27px]  menu">
           <button
-            className="flex flex-col justify-between w-full h-full absolute z-30 menu"
+            className="flex flex-col justify-between w-full h-full absolute z-30"
             onClick={openMenu}
           >
             <div className="bg-white h-[3px] rounded-full w-full"></div>

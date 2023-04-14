@@ -8,9 +8,9 @@ export default function HeroSection(){
         <div className='flex flex-col pt-[20vh] h-screen gap-[6vh] homie grain' id='home'>
             <YellowGrad/>
             <BlueGrad/>
-            <div className='flex gap-10 justify-center items-center'>
+            <div className='flex gap-10 justify-center items-center powered'>
                 <p className='text-2xl font-bold'>Powered By</p>
-                <img src="/sponsor.svg" alt="Msigma" />
+                <img src="/sponsor.svg" alt="Msigma"/>
             </div>
             <div className='flex flex-col w-full justify-center gap-[-400px] items-center logo'>
                 <img src="/resurgence.svg" alt="" className='w-[40%] opacity-20'/>
