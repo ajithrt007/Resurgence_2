@@ -55,9 +55,9 @@ export default function Scoreboard(){
                         count = count + 1
                         return (
                             <div className='flex justify-between w-[40vw] p-[20px] bg-black rounded-xl'>
-                                <p>{count}</p>
-                                <p>{element[0]}</p>
-                                <p>{element[1]}</p>
+                                <p key={count}>{count}</p>
+                                <p key={element[0]}>{element[0]}</p>
+                                <p key={element[1]}>{element[1]}</p>
                             </div>
                         )
                     })
