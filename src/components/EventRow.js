@@ -13,6 +13,7 @@ export default function EventRow(props){
         transform: angle,
         opacity: 0.7
     }
+    const contentArray = content.split("\n");
     function buttonClick(){
         if (display === 'none'){
             setDisplay('flex')
@@ -33,7 +34,11 @@ export default function EventRow(props){
                 <div className='flex justify-center'>
                     <img src={poster} alt="" className='w-[80%] eventPoster' loading='lazy'/>
                 </div>
-                <p>{content}</p>
+                {
+                    contentArray.map((sentence)=>{
+                        return <p>{sentence}</p>
+                    }) 
+                }
                 <div>
                     <SpclButton name="Register" link={link}/>
                 </div>

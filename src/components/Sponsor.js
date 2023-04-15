@@ -3,7 +3,7 @@ import SpclButton from './SpclButton'
 
 export default function Sponsor(){
     const listStyle = {
-        'list-style-type':'disc'
+        listStyleType:'disc'
     }
     return(
         <div className='p-[4vw] sponsor flex flex-col gap-10' id='sponsor'>
@@ -20,7 +20,7 @@ export default function Sponsor(){
             </ul>
             <div className='flex flex-col gap-7'>
                 <SpclButton name="msigmagokulam.com"/>
-                <SpclButton name="Instagram"/>
+                <SpclButton name="Instagram : @msigmagokulam"/>
             </div>
         </div>
     )
