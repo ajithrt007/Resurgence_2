@@ -17,7 +17,7 @@ export default function Footer() {
       </div>
       <div className="bg-[#08080E] w-full flex flex-col justify-center items-center gap-10 feedback">
         <p className="text-[23px]">We love to hear your feedbacks</p>
-        <SpclButton name="Tell us" />
+        <SpclButton name="Tell us" link="https://forms.gle/ki4yYus1VmjhQHG17"/>
       </div>      
     </div>
   );
