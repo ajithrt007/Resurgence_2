@@ -36,7 +36,7 @@ export default function EventRow(props){
                 </div>
                 {
                     contentArray.map((sentence)=>{
-                        return <p>{sentence}</p>
+                        return <p key={sentence}>{sentence}</p>
                     }) 
                 }
                 <div>
