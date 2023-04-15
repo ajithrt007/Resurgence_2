@@ -9,8 +9,8 @@ import Points from './Points.js'
 export default function Container(){
     return(
         <div className='mcontainer'>
+            <Sponsor/>            
             <About/>
-            <Sponsor/>
             <Events/>
             <Points/>
             {/* <Scoreboard/> */}

@@ -19,8 +19,8 @@ export default function Sponsor(){
                 <li className='points'>Our IT department helps businesses with next-generation digital services and consulting.</li>
             </ul>
             <div className='flex flex-col gap-7'>
-                <SpclButton name="msigmagokulam.com"/>
-                <SpclButton name="Instagram : @msigmagokulam"/>
+                <SpclButton name="msigmagokulam.com" link="https://msigmagokulam.com/"/>
+                <SpclButton name="Instagram : @msigmagokulam" link="https://www.instagram.com/msigmagokulam/"/>
             </div>
         </div>
     )
