@@ -309,3 +309,6 @@ td, th {
 tr:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.6);
 }
+.classes div:first-child{
+  background: linear-gradient(265.69deg, rgba(255, 101, 101, 0.5) 0%, rgba(254, 95, 238, 0.5) 21.23%, rgba(120, 134, 255, 0.5) 44.15%, rgba(102, 255, 246, 0.5) 69.15%, rgba(251, 255, 74, 0.5) 100%);
+}

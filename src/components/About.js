@@ -15,7 +15,7 @@ export default function About(){
                         <p>IEEE started off in Sree Chitra Thirunal College Of Engineering with the registration of members on 23rd October 2009 with 30 members in its first phase. The Student Branch is one of the top 10 SBs in the Travancore Hub. Sree Chitra Thirunal College Of Engineering is one of the leading engineering colleges in Thiruvananthapuram, Kerala</p>
                     </div>
                 </div>
-                <SpclButton name="Join IEEE"/>
+                <SpclButton name="Join IEEE" link="https://bit.ly/MEMB23"/>
             </div>
         </div>
     )

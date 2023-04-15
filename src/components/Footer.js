@@ -3,7 +3,7 @@ import SpclButton from "./SpclButton";
 
 export default function Footer() {
   return (
-    <div className="bg-black flex gap-10 p-[4vw] footer">
+    <div className="bg-black flex gap-10 p-[4vw] footer" id="footer">
       <div className="flex flex-col gap-10 quick">
         <img src="/resurgence.svg" alt="" className="w-[20vw]" />
         <div className="flex flex-col gap-10">

@@ -100,19 +100,19 @@ export default function Navbar() {
         <Link
           className="notiFont"
           activeClass="active"
-          to="score"
+          to="points"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
           onClick={closeMenu}
         >
-          Scoreboard
+          Points
         </Link>
         <Link
           className="notiFont"
           activeClass="active"
-          to="Home"
+          to="footer"
           spy={true}
           smooth={true}
           offset={0}
