@@ -13,7 +13,7 @@ export default function Container(){
             <About/>
             <Events/>
             <Points/>
-            {/* <Scoreboard/> */}
+            <Scoreboard/>
             <Footer/>
         </div>
     )
