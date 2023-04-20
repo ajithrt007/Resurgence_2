@@ -17,22 +17,22 @@ export default function Events(){
     }
     return(
         <div className='p-[4vw]' id='events'>
-            <h1 className='heading'>Events</h1>
+            <h1 className='heading'>Event Winners</h1>
             <div className='flex gap-10 relative rowContainer'>
                 <div className='flex flex-col gap-5 w-full'>
-                    <EventRow name="Radiant - Valorant" poster="/valo.jpeg" link="https://min.lc/Radiant" content={events.Radiant}/>
-                    <EventRow name="X marks - Treasure Hunt" poster="/Xmarks.jpeg" link="https://bit.ly/3mue09C" content={events.Xmarks}/>
-                    <EventRow name="Innovation Conclave - Idea Hackathon" poster="/innovation.jpeg" link="http://bit.ly/Innovation_conclave" content={events.Innovation}/>
-                    <EventRow name="Consumer Carousal - Sell me a product" poster="/Consumer.jpeg" link="http://bit.ly/ConsumerCarousal" content={events.Consumer}/>
-                    <EventRow name="Quick Quip Quell - Just A Minute" poster="/qqq.jpeg" link="http://bit.ly/ResurgenceJAM" content={events.QQQ}/>
-                    <EventRow name="Picture Perfect - Photography" poster="/picture.jpeg" link="https://bit.ly/picturePerfect" content={events.Picture}/>
+                    <EventRow name="Radiant - Valorant" poster="/valo1.jpg" link="https://min.lc/Radiant" content={events.Radiant}/>
+                    <EventRow name="X marks - Treasure Hunt" poster="/Xmarks1.jpg" link="https://bit.ly/3mue09C" content={events.Xmarks}/>
+                    <EventRow name="Innovation Conclave - Idea Hackathon" poster="/innovation1.jpg" link="http://bit.ly/Innovation_conclave" content={events.Innovation}/>
+                    <EventRow name="Consumer Carousal - Sell me a product" poster="/Consumer1.jpg" link="http://bit.ly/ConsumerCarousal" content={events.Consumer}/>
+                    <EventRow name="Quick Quip Quell - Just A Minute" poster="/qqq1.jpg" link="http://bit.ly/ResurgenceJAM" content={events.QQQ}/>
+                    <EventRow name="Picture Perfect - Photography" poster="/picture1.jpg" link="https://bit.ly/picturePerfect" content={events.Picture}/>
                 </div>
                 <div className='flex flex-col gap-5 w-full'>
-                    <EventRow name="Elastico - EFootball" poster="/Elastico.jpeg" link="https://bit.ly/ELastico" content={events.Elastico}/>
-                    <EventRow name="Meme Into - Meme making" poster="/meme.jpeg" link="https://bit.ly/memeinto" content={events.Meme}/>
-                    <EventRow name="Planet Pitch - Idea Hackathon" poster="/planet.jpeg" link="https://bit.ly/Planetpitch" content={events.Planet}/>
-                    <EventRow name="The Art of Argument - Debate" poster="/the art of.jpeg" link="http://bit.ly/4073WRM" content={events.TheArt}/>
-                    <EventRow name="Design Duel - Poster Design" poster="/design.jpeg" link="https://bit.ly/PosterDesigningCompetetion" content={events.Design}/>
+                    <EventRow name="Elastico - EFootball" poster="/Elastico1.jpg" link="https://bit.ly/ELastico" content={events.Elastico}/>
+                    <EventRow name="Meme Into - Meme making" poster="/meme1.jpg" link="https://bit.ly/memeinto" content={events.Meme}/>
+                    <EventRow name="Planet Pitch - Idea Hackathon" poster="/planet1.jpg" link="https://bit.ly/Planetpitch" content={events.Planet}/>
+                    <EventRow name="The Art of Argument - Debate" poster="/the art of1.jpg" link="http://bit.ly/4073WRM" content={events.TheArt}/>
+                    <EventRow name="Design Duel - Poster Design" poster="/design1.jpg" link="https://bit.ly/PosterDesigningCompetetion" content={events.Design}/>
                 </div>
             </div>
             

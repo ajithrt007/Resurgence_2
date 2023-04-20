@@ -47,7 +47,19 @@ export default function Scoreboard() {
   var count = 1;
   console.log(scoreboard);
   return (
-    <>
+    <>      
+      <div className="flex flex-col gap-10 p-[4vw]" id="score">
+        <h1 className="heading text-center">Resurgence 2.0 Overall Champion</h1>
+        <div className="flex flex-col items-center gap-5 classes relative">
+          {/* <div className="flex justify-between w-[40vw] p-[20px] px-[40px] bg-black rounded-xl winner">
+            <p>T2A</p>
+            <p>982</p>
+          </div> */}
+          {/* <div className="relative w-[70vw]"> */}
+            <img src="/winner.jpg" alt="Picture of the author" />
+          {/* </div> */}
+        </div>
+      </div>
       <div className="flex flex-col gap-10 p-[4vw]" id="score">
         <h1 className="heading">Scoreboard</h1>
         <div className="flex flex-col items-center gap-5 classes">
@@ -66,17 +78,6 @@ export default function Scoreboard() {
           })}
         </div>
       </div>
-      <div className="flex flex-col gap-10 p-[4vw]" id="score">
-        <h1 className="heading text-center">Resurgence 2.0 Winner</h1>
-        <div className="flex flex-col items-center gap-5 classes">
-        <div
-                className="flex justify-between w-[40vw] p-[20px] px-[40px] bg-black rounded-xl winner"
-              >
-                <p>T2A</p>
-                <p>982</p>
-              </div>
-        </div>
-      </div>
     </>
-  )
+  );
 }

@@ -85,7 +85,7 @@ export default function Navbar() {
         >
           Sponsor
         </Link>
-        <Link
+        {/* <Link
           className="notiFont"
           activeClass="active"
           to="events"
@@ -95,7 +95,7 @@ export default function Navbar() {
           duration={500}
           onClick={closeMenu}
         >
-          Competitions
+          Winners
         </Link>
         <Link
           className="notiFont"
@@ -108,7 +108,7 @@ export default function Navbar() {
           onClick={closeMenu}
         >
           Points
-        </Link>
+        </Link> */}
         <Link
           className="notiFont"
           activeClass="active"

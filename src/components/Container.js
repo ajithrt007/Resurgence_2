@@ -11,9 +11,10 @@ export default function Container(){
         <div className='mcontainer'>
             <Sponsor/>            
             <About/>
-            <Events/>
-            <Points/>
             <Scoreboard/>
+            <Events/>
+            {/* <Points/> */}
+            
             <Footer/>
         </div>
     )

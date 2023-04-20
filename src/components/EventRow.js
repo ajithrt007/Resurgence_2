@@ -34,13 +34,13 @@ export default function EventRow(props){
                 <div className='flex justify-center'>
                     <img src={poster} alt="" className='w-[80%] eventPoster' loading='lazy'/>
                 </div>
-                {
+                {/* {
                     contentArray.map((sentence)=>{
                         return <p key={sentence}>{sentence}</p>
                     }) 
-                }
+                } */}
                 <div>
-                    <SpclButton name="Register" link={link}/>
+                    {/* <SpclButton name="Register" link={link}/> */}
                 </div>
             </div>
         </div>
