@@ -23,7 +23,7 @@ export default function Events(){
                     <EventRow name="Radiant - Valorant" poster="/valo1.jpg" link="https://min.lc/Radiant" content={events.Radiant}/>
                     <EventRow name="X marks - Treasure Hunt" poster="/Xmarks1.jpg" link="https://bit.ly/3mue09C" content={events.Xmarks}/>
                     <EventRow name="Innovation Conclave - Idea Hackathon" poster="/innovation1.jpg" link="http://bit.ly/Innovation_conclave" content={events.Innovation}/>
-                    <EventRow name="Consumer Carousal - Sell me a product" poster="/Consumer1.jpg" link="http://bit.ly/ConsumerCarousal" content={events.Consumer}/>
+                    <EventRow name="Consumer Carousal - Sell me a product" poster="/Consumer.jpg" link="http://bit.ly/ConsumerCarousal" content={events.Consumer}/>
                     <EventRow name="Quick Quip Quell - Just A Minute" poster="/qqq1.jpg" link="http://bit.ly/ResurgenceJAM" content={events.QQQ}/>
                     <EventRow name="Picture Perfect - Photography" poster="/picture1.jpg" link="https://bit.ly/picturePerfect" content={events.Picture}/>
                 </div>
